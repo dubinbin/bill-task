@@ -1,0 +1,122 @@
+.bg {
+    background: url('./images/index.png');
+    background-size: cover;
+    width: 100%;
+    height: 66.66vw;
+    max-height: 320px;
+    .bgInner {
+        .title {
+            font-size: 18px;
+            color: #ffffff;
+            text-align: center;
+            padding-top: 25px;
+        }
+        .fakeblock {
+            width: 100%;
+            height: 14.66vw;
+            max-height: 70.4px;
+        }
+        .textWrap {
+            display: flex;
+            justify-content: space-around;
+            .leftText {
+                .expend {
+                    font-size: 16px;
+                    color: #ffffff;
+                    i {
+                        font-style: normal;
+                    }
+                }
+                .money {
+                    font-size: 28px;
+                    font-weight: 600;
+                    color: #fff;
+                    margin-top: 10px;
+                }
+    
+            }
+            .rightText {
+                .income {
+                    font-size: 16px;
+                    color: #ffffff;
+                    i {
+                        font-style: normal;
+                    }
+                }
+                .money {
+                    font-size: 28px;
+                    font-weight: 600;
+                    color: #fff;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+.today {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0 20px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    .todayLeft {
+            color: #a3a3a3;
+            font-size: 16px;
+    }
+    .todayRight {
+        span {
+            margin-left: 15px;
+            color: #a3a3a3;
+            font-size: 13px;
+        }
+    }
+}
+
+.ListWrap {
+    padding: 0px 15px 0 15px;
+    .listItem {
+        display: flex;
+        border-radius: 10px;
+        padding: 8px 10px 8px 10px;
+        box-shadow: 3px 1px 6px #f1efef;
+        margin-bottom: 7px;
+        .avatarType {
+            img {
+                width: 45px;
+                height: 45px;
+                border-radius: 10px;
+            }
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 45px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            margin-left: 8px;
+            width: 100%;
+            .textTop {
+                font-size: 18px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+            .textBottom {
+                color: #c1c1c1;
+                font-size: 12px;   
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;  
+            }
+        }
+        .money {
+            display: flex;
+            align-items: center;
+            font-size: 18px; 
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    max-width: 480px;
+    height: 50px;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        height: 1px;
+        width: 100%;
+        background: #f7f7f7;
+    
+
+    }
+}
+
+.recordIocn {
+    width: 30px;
+    img {
+        width: 100%;
+    }
+}
+
+.addBtn {
+    width: 60px;
+    position: relative;
+    top: 20%;
+    transform: translateY(-40%);
+    z-index: 1;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 5px;
+        left: 5px;
+        border-radius: 50%;
+        z-index: -2;
+        box-shadow: 1px 1px 4px #7d5cbb;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.settingIcon {
+    width: 30px;
+    img {
+        width: 100%;
+    }
+}
